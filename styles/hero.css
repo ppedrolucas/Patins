@@ -212,6 +212,7 @@ section.hero {
       height: 2.5rem;
     }
     & > div:nth-child(2) {
+      max-width: 25rem;
       height: 25rem;
     }
   }
