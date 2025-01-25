@@ -26,6 +26,14 @@
   --text-lg: 2.5rem;
   --text-xl: 4rem;
 }
+@media (width < 60em) {
+  :root {
+    --text-sm: 0.75rem;
+    --text-base: 0.875rem;
+    --text-lg: 1.25rem;
+    --text-xl: 2rem;
+  }
+}
 
 html,
 button {
